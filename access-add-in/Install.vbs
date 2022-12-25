@@ -1,6 +1,6 @@
 const AddInName = "ACLib-FilterForm-Wizard"
-const AddInFileName = "ACLibFilterFormWizard.mda"
-const MsgBoxTitle = "Update ACLib-FilterForm-Wizard"
+const AddInFileName = "ACLibFilterFormWizard.accda"
+const MsgBoxTitle = "Install ACLib-FilterForm-Wizard"
 
 MsgBox "Vor dem Aktualisieren der Add-In-Datei darf das Add-In nicht geladen sein!" & chr(13) & _
        "Zur Sicherheit alle Access-Instanzen schlieﬂen.", , MsgBoxTitle & ": Hinweis"
