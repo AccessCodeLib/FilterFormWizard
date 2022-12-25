@@ -1,10 +1,10 @@
 Attribute VB_Name = "_config_Application"
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>_codelib/addins/FilterFormWizard/_config_Application.bas</file>
+'  <file>%AppFolder%/source//_config_Application.bas</file>
 '  <replace>base/_config_Application.bas</replace> 'dieses Modul ersetzt base/_config_Application.bas
 '  <license>_codelib/license.bas</license>
-'  <use>_codelib/addins/FilterFormWizard/defGlobal_ACLibFilterFormWizard.bas</use>
+'  <use>%AppFolder%/source//defGlobal_ACLibFilterFormWizard.bas</use>
 '  <use>base/_initApplication.bas</use>
 '  <use>base/modApplication.bas</use>
 '  <use>base/ApplicationHandler.cls</use>
@@ -15,7 +15,7 @@ Attribute VB_Name = "_config_Application"
 '</codelib>
 '---------------------------------------------------------------------------------------
 '
-' Nicht vergessen: USELOCALIZATION = 1 als Complier-Arg. in Projekteigenschaft einstellen
+' Nicht vergessen: USELOCALIZATION = 1 als Compiler-Arg. in Projekteigenschaft einstellen
 '
 '
 Option Compare Database

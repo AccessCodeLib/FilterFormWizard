@@ -12,7 +12,7 @@ Attribute VB_Name = "modWizardCodeModulesData"
 '**/
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>_codelib/addins/FilterFormWizard/modWizardCodeModulesData.bas</file>
+'  <file>%AppFolder%/source//modWizardCodeModulesData.bas</file>
 '  <license>_codelib/license.bas</license>
 '</codelib>
 '---------------------------------------------------------------------------------------

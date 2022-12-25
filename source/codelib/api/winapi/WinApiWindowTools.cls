@@ -34,8 +34,8 @@ Option Compare Text
 Option Explicit
 
 Private Type POINTAPI
-   x As Long
-   y As Long
+   X As Long
+   Y As Long
 End Type
 
 Private Declare PtrSafe Function ClientToScreen Lib "user32.dll" ( _
@@ -186,12 +186,12 @@ On Error Resume Next
 
       'Bildschirmkoordinaten dieses Controls ermitteln
       'dafür die Punktkoordinaten aus dem letzten Durchlauf zurücksetzen, sonst wird addiert!
-      pt.x = 0
-      pt.y = 0
+      pt.X = 0
+      pt.Y = 0
       ClientToScreen h, pt
 
       'Objekt bei den Koordinaten ermitteln
-      Set obj = FrmRef.accHitTest(pt.x, pt.y)
+      Set obj = FrmRef.accHitTest(pt.X, pt.Y)
 
       'Wenn Objektname = Tabname Ausstieg aus der Schleife
       If obj.Name = ControlName Then
