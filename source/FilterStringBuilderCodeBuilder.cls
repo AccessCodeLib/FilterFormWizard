@@ -19,9 +19,9 @@ Attribute VB_Exposed = False
 '**/
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>%AppFolder%/source//FilterStringBuilderCodeBuilder.cls</file>
+'  <file>%AppFolder%/source/FilterStringBuilderCodeBuilder.cls</file>
 '  <license>_codelib/license.bas</license>
-'  <use>%AppFolder%/source//IFilterFormCodeBuilder.cls</use>
+'  <use>%AppFolder%/source/IFilterFormCodeBuilder.cls</use>
 '  <use>_codelib/addins/shared/AppFileCodeModulTransfer.cls</use>
 '</codelib>
 '---------------------------------------------------------------------------------------

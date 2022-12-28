@@ -10,7 +10,7 @@ Attribute VB_Name = "defGlobal_FilterFormWizard"
 '**/
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>%AppFolder%/source//defGlobal_FilterFormWizard.bas</file>
+'  <file>%AppFolder%/source/defGlobal_FilterFormWizard.bas</file>
 '  <license>_codelib/license.bas</license>
 '</codelib>
 '---------------------------------------------------------------------------------------

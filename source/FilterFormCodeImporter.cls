@@ -19,11 +19,11 @@ Attribute VB_Exposed = False
 '**/
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>%AppFolder%/source//FilterFormCodeImporter.cls</file>
+'  <file>%AppFolder%/source/FilterFormCodeImporter.cls</file>
 '  <license>_codelib/license.bas</license>
 '  <use>_codelib/addins/shared/CodeModuleWriter.cls</use>
 '  <use>_codelib/addins/shared/AppFileCodeModulTransfer.cls</use>
-'  <use>%AppFolder%/source//IFilterFormCodeBuilder.cls</use>
+'  <use>%AppFolder%/source/IFilterFormCodeBuilder.cls</use>
 '</codelib>
 '---------------------------------------------------------------------------------------
 '

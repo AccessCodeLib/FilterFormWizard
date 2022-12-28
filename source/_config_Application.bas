@@ -1,10 +1,10 @@
 Attribute VB_Name = "_config_Application"
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>%AppFolder%/source//_config_Application.bas</file>
+'  <file>%AppFolder%/source/_config_Application.bas</file>
 '  <replace>base/_config_Application.bas</replace> 'dieses Modul ersetzt base/_config_Application.bas
 '  <license>_codelib/license.bas</license>
-'  <use>%AppFolder%/source//defGlobal_ACLibFilterFormWizard.bas</use>
+'  <use>%AppFolder%/source/defGlobal_ACLibFilterFormWizard.bas</use>
 '  <use>base/_initApplication.bas</use>
 '  <use>base/modApplication.bas</use>
 '  <use>base/ApplicationHandler.cls</use>
