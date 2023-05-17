@@ -38,7 +38,7 @@ Private Const APPLICATION_VERSION As String = "1.8.0" '2023-05
 #Const USE_CLASS_APPLICATIONHANDLER_APPFILE = 1
 #Const USE_CLASS_APPLICATIONHANDLER_VERSION = 1
 
-Private Const APPLICATION_NAME As String = "ACLib FilterForm Wizard"
+Public Const APPLICATION_NAME As String = "ACLib FilterForm Wizard"
 Private Const APPLICATION_FULLNAME As String = "Access Code Library - FilterForm Wizard"
 Private Const APPLICATION_TITLE As String = APPLICATION_FULLNAME
 Private Const APPLICATION_ICONFILE As String = "ACLib.ico"
