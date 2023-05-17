@@ -53,7 +53,7 @@ Option Compare Text
 Option Explicit
 
 Public Function GetAccessCodeLibLicense() As String
-
+   
 On Error Resume Next
    
    GetAccessCodeLibLicense = _

@@ -2,17 +2,17 @@ VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
 END
-Attribute VB_Name = "ACLibWebImporter"
+Attribute VB_Name = "ACLibGitHubImporter"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 '---------------------------------------------------------------------------------------
-' Klassenmodul: ACLibWebImporter
+' Klassenmodul: ACLibGitHubImporter
 '---------------------------------------------------------------------------------------
 '/**
 ' <summary>
-' Hilfsklasse zum Importieren von Codemodulen aus der Code-Bibliothek in die usys_Appfiles-Tabelle
+' Import GitHub files
 ' </summary>
 ' <remarks>
 ' </remarks>
@@ -20,7 +20,7 @@ Attribute VB_Exposed = False
 '**/
 '---------------------------------------------------------------------------------------
 '<codelib>
-'  <file>_codelib/addins/shared/ACLibWebImporter.cls</file>
+'  <file>_codelib/addins/shared/ACLibGitHubImporter.cls</file>
 '  <license>_codelib/license.bas</license>
 '</codelib>
 '---------------------------------------------------------------------------------------
@@ -28,9 +28,10 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-Const SvnBaseUrl As String = "https://svn.access-codelib.net/svn/codelib/"
+Const GitHubContentBaseUrl As String = "https://raw.githubusercontent.com/AccessCodeLib/AccessCodeLib/{branch}/{path}"
+Const GitHubApiBaseUrl As String = "https://api.github.com/repos/AccessCodeLib/AccessCodeLib/"
 
-Private m_SvnRev As String
+Private m_LastCommit As Date
 Private m_UseDraftBranch As Boolean
 
 #If VBA7 Then
@@ -49,14 +50,18 @@ Public Property Let UseDraftBranch(ByVal NewValue As Boolean)
    m_UseDraftBranch = NewValue
 End Property
 
-Public Property Get CurrentSvnRev(Optional ByVal RequerySvnRev As Boolean = False) As String
-   If Len(m_SvnRev) = 0 Or RequerySvnRev Then
-      m_SvnRev = GetRevisionFromWeb
-      If UseDraftBranch Then
-         m_SvnRev = m_SvnRev & "-draft"
-      End If
+Public Property Get RevisionString(Optional ByVal Requery As Boolean = False) As String
+   RevisionString = Format(LastCommit, "yyyymmddhhnnss")
+   If UseDraftBranch Then
+      RevisionString = RevisionString & "-draft"
    End If
-   CurrentSvnRev = m_SvnRev
+End Property
+
+Public Property Get LastCommit(Optional ByVal Requery As Boolean = False) As String
+   If m_LastCommit = 0 Or Requery Then
+      m_LastCommit = GetLastCommitFromWeb()
+   End If
+   LastCommit = m_LastCommit
 End Property
 
 Public Sub UpdateCodeModules()
@@ -84,62 +89,76 @@ Public Sub UpdateCodeModules()
 
 End Sub
 
-Private Sub UpdateCodeModuleInTable(ByVal ModuleName As String, ByVal ACLibPath As String, Optional ByVal RequerySvnRev As Boolean = False)
+Private Sub UpdateCodeModuleInTable(ByVal ModuleName As String, ByVal ACLibPath As String, Optional ByVal Requery As Boolean = False)
 
    Dim TempFile As String
    Dim DownLoadUrl As String
+   Dim BranchName As String
    
    TempFile = FileTools.TempPath & ModuleName & ".cls"
    
-   DownLoadUrl = SvnBaseUrl
    If UseDraftBranch Then
-      DownLoadUrl = DownLoadUrl & "branches/draft"
+      BranchName = "draft"
    Else
-      DownLoadUrl = DownLoadUrl & "trunk/codelib"
+      BranchName = "master"
    End If
-   DownLoadUrl = DownLoadUrl & ACLibPath
+   DownLoadUrl = Replace(GitHubContentBaseUrl, "{branch}", BranchName)
+   DownLoadUrl = Replace(DownLoadUrl, "{path}", ACLibPath)
    
    DownloadFileFromWeb DownLoadUrl, TempFile
-   CurrentApplication.SaveAppFile ModuleName, TempFile, True, "SvnRev", Me.CurrentSvnRev(RequerySvnRev)
+   CurrentApplication.SaveAppFile ModuleName, TempFile, False, "SccRev", Me.RevisionString(Requery)
    Kill TempFile
 
 End Sub
 
-Private Function GetRevisionFromWeb() As Long
+Private Function GetLastCommitFromWeb() As Date
 
+'alternative: git rev-list HEAD --count
+
+' https://api.github.com/repos/AccessCodeLib/AccessCodeLib/commits/master
+
+   Dim CommitUrl As String
+   Dim LastCommitInfo As String
+   CommitUrl = GitHubApiBaseUrl & "commits/"
+
+   If UseDraftBranch Then
+      CommitUrl = CommitUrl & "draft"
+   Else
+      CommitUrl = CommitUrl & "master"
+   End If
+   
    Const RevisionTag As String = "Revision "
 
-   Dim IE As Object           ' SHDocVw.InternetExplorer
-   Dim HtmlDoc As Object      ' MSHTML.HTMLDocument
-   Dim HtmlElements As Object ' MSHTML.IHTMLElementCollection
-   Dim RevText As String
-      
-   OpenIEandLoadHtmlDoc SvnBaseUrl, IE, HtmlDoc
+   Dim JsonString As String
+   JsonString = GetJsonString(CommitUrl)
    
-   Set HtmlElements = HtmlDoc.getElementsByTagName("H2")
+   Dim LastCommitPos As Long
+   LastCommitPos = InStr(1, JsonString, """committer"":")
+   LastCommitPos = InStr(LastCommitPos, JsonString, """date"":") + Len("date"": """)
+   '"date": "2023-05-14T09:34:04Z"
+   LastCommitInfo = Mid(JsonString, LastCommitPos, Len("2023-05-14T09:34:04"))
    
-   If HtmlElements.Length > 0 Then
-      RevText = HtmlElements.Item.innerText
-   Else
-      Err.Raise vbObjectError, "GetRevisionFromWeb", "Text mit Revisionsnummer fehlt in '" & SvnBaseUrl & "'"
-   End If
+   GetLastCommitFromWeb = CDate(Replace(LastCommitInfo, "T", " "))
 
-   Set HtmlElements = Nothing
-   HtmlDoc.Close
-   Set HtmlDoc = Nothing
+End Function
 
-   IE.Quit
-   Set IE = Nothing
-   
-   Dim RevPos As Long
-   
-   RevPos = InStr(1, RevText, RevisionTag)
-   If RevPos = 0 Then
-      Err.Raise vbObjectError, "GetRevisionFromWeb", "Text mit Revisionsnummer fehlt in '" & SvnBaseUrl & "'"
-   End If
-   RevText = Mid(RevText, RevPos + Len(RevisionTag))
-   
-   GetRevisionFromWeb = Val(RevText)
+Private Function GetJsonString(ByVal ApiUrl As String) As String
+
+    Dim ApiResponse As String
+    Dim json As Object
+    
+    Dim xml As Object ' MSXML2.XMLHTTP60
+    Set xml = CreateObject("MSXML2.XMLHTTP.6.0")
+
+    xml.Open "GET", ApiUrl, False
+    xml.setRequestHeader "Content-type", "application/json"
+    xml.send
+    While xml.ReadyState <> 4
+        DoEvents
+    Wend
+    ApiResponse = xml.responseText
+    
+    GetJsonString = ApiResponse
 
 End Function
 
