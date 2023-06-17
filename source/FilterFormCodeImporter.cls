@@ -8,15 +8,16 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 '---------------------------------------------------------------------------------------
-' Klasse: FilterFormCodeImporter
+' Class: FilterFormCodeImporter
 '---------------------------------------------------------------------------------------
-'/**
-' \author       Josef Poetzl
-' <summary>
-' Code für Import von FilterStringBuilder
-' </summary>
-' <remarks></remarks>
-'**/
+'
+' Import code for filter form
+'
+' Author:
+'     Josef Poetzl
+'
+'---------------------------------------------------------------------------------------
+
 '---------------------------------------------------------------------------------------
 '<codelib>
 '  <file>%AppFolder%/source/FilterFormCodeImporter.cls</file>

@@ -10,13 +10,14 @@ Attribute VB_Exposed = False
 '---------------------------------------------------------------------------------------
 ' Interface: IFilterFormCodeBuilder
 '---------------------------------------------------------------------------------------
-'/**
-' \author       Josef Poetzl
-' <summary>
-' CodeBuilder-Schnittstelle zum Einfügen von Code für FilterControlManager, FilterStringBuilder, ...
-' </summary>
-' <remarks></remarks>
-'**/
+'
+' CodeBuilder interface for inserting code for FilterControlManager, FilterStringBuilder, ...
+'
+' Author:
+'     Josef Poetzl
+'
+'---------------------------------------------------------------------------------------
+
 '---------------------------------------------------------------------------------------
 '<codelib>
 '  <file>%AppFolder%/source/IFilterFormCodeBuilder.cls</file>
