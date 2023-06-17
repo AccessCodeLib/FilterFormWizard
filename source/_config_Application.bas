@@ -2,13 +2,11 @@ Attribute VB_Name = "_config_Application"
 '---------------------------------------------------------------------------------------
 ' Modul: _initApplication
 '---------------------------------------------------------------------------------------
-'/**
-' <summary>
+'
 ' Application configuration
-' </summary>
-' <remarks>
-' </remarks>
-'**/
+'
+'---------------------------------------------------------------------------------------
+
 '---------------------------------------------------------------------------------------
 '<codelib>
 '  <file>%AppFolder%/source/_config_Application.bas</file>
@@ -33,7 +31,7 @@ Option Explicit
 Option Private Module
 
 'Version
-Private Const APPLICATION_VERSION As String = "1.8.0" '2023-05
+Private Const APPLICATION_VERSION As String = "1.8.1" '2023-06
 
 #Const USE_CLASS_APPLICATIONHANDLER_APPFILE = 1
 #Const USE_CLASS_APPLICATIONHANDLER_VERSION = 1
@@ -57,15 +55,12 @@ Private m_Extensions As ApplicationHandler_ExtensionCollection
 '---------------------------------------------------------------------------------------
 ' Sub: InitConfig
 '---------------------------------------------------------------------------------------
-'/**
-' <summary>
+'
 ' Init application configuration
-' </summary>
-' <param name="CurrentAppHandlerRef">Possibility of a reference transfer so that CurrentApplication does not have to be used</param>
-' <returns></returns>
-' <remarks>
-' </remarks>
-'**/
+'
+' Parameters:
+'     CurrentAppHandlerRef - Possibility of a reference transfer so that CurrentApplication does not have to be used</param>
+'
 '---------------------------------------------------------------------------------------
 Public Sub InitConfig(Optional ByRef CurrentAppHandlerRef As ApplicationHandler = Nothing)
 
