@@ -27,7 +27,7 @@ Select Case MsgBox("Should the add-in be used as a compiled file (accde)?" + chr
       
 End Select
 
-Ff AddInFileInstalled = True Then
+If AddInFileInstalled = True Then
    RegisterAddIn GetDestFileFullName()
 End If
 
