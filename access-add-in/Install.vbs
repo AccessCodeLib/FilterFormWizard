@@ -5,7 +5,7 @@ const MsgBoxTitle = "Install ACLib-FilterForm-Wizard"
 Dim AddInFileInstalled, CompletedMsg
 
 MsgBox "Before updating the add-in file, the add-in must not be loaded!" & chr(13) & _
-       "Close all access instances for safety.", , MsgBoxTitle & ": Hinweis"
+       "Close all access instances for safety.", , MsgBoxTitle & ": Information"
 
 Select Case MsgBox("Should the add-in be used as a compiled file (accde)?" + chr(13) & _
                    "(Add-In is compiled and copied to the Add-In directory.)", 3, MsgBoxTitle)
