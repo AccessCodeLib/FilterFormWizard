@@ -1,21 +1,20 @@
 Attribute VB_Name = "_initApplication"
 '---------------------------------------------------------------------------------------
-' Modul: _initApplication
+' Package: base._initApplication
 '---------------------------------------------------------------------------------------
-'/**
-' <summary>
+'
 ' Initialising the application
-' </summary>
-' <remarks>
-' </remarks>
-' \ingroup base
-'**/
+'
+' Author:
+'     Josef Poetzl
+'
+'---------------------------------------------------------------------------------------
+
 '---------------------------------------------------------------------------------------
 '<codelib>
 '  <file>base/_initApplication.bas</file>
 '  <license>_codelib/license.bas</license>
 '  <use>base/modApplication.bas</use>
-'  <use>base/defGlobal.bas</use>
 '</codelib>
 '---------------------------------------------------------------------------------------
 '
@@ -34,14 +33,12 @@ Option Private Module
 '---------------------------------------------------------------------------------------
 ' Function: StartApplication
 '---------------------------------------------------------------------------------------
-'/**
-' <summary>
+'
 ' Procedure for application start-up
-' </summary>
-' <returns>Boolean (sucess = true)</returns>
-' <remarks>
-' </remarks>
-'**/
+'
+' Returns:
+'     Boolean - sucess = true
+'
 '---------------------------------------------------------------------------------------
 Public Function StartApplication() As Boolean
 
