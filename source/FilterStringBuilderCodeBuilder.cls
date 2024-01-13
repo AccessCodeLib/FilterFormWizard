@@ -104,8 +104,8 @@ Private Function GetRemoveFilterCode(ByVal ApplyFilterCtlName As String, ByVal F
 
    Code = "Private Sub RemoveFilter()" & vbNewLine & _
           "   RemoveFilterValues" & vbNewLine & _
-          "'  ApplyFilter ""0=1""        ' " & L10n.Text("Anzeige leeren, keine Datensätze anzeigen") & vbNewLine & _
-          "   ApplyFilter vbNullString ' " & L10n.Text("Alle Datensätze anzeigen") & vbNewLine
+          "'  ApplyFilter ""0=1""        ' " & L10n.Text("Don't show records") & vbNewLine & _
+          "   ApplyFilter vbNullString ' " & L10n.Text("Show all records") & vbNewLine
           
    If Len(ApplyFilterCtlName) > 0 Then
        Code = Code & _
@@ -145,7 +145,7 @@ Private Function GetGetFilterControlsCode(ByVal FilterControlNames As StringColl
    Code = "Private Function GetFilterControls() As Collection" & vbNewLine & _
           "   Dim fctlCol As Collection" & vbNewLine & vbNewLine & _
           "   Set fctlCol = New Collection" & vbNewLine & _
-          "   '" & L10n.Text("Filter-Steuerelemente anfügen:") & vbNewLine
+          "   '" & L10n.Text("Add filter controls") & ":" & vbNewLine
           
    Code = Code & FilterControlNames.ToString(vbNewLine, "   fctlCol.Add Me.", , True) & vbNewLine
           
