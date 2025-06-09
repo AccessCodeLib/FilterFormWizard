@@ -10,7 +10,9 @@ MsgBox "Before updating the add-in file, the add-in must not be loaded!" & chr(1
 Select Case MsgBox("Should the add-in be used as a compiled file (accde)?" + chr(13) & _
                    "(Add-In is compiled and copied to the Add-In directory.)", 3, MsgBoxTitle)
    case 6 ' vbYes
-      AddInFileInstalled = CreateMde(GetSourceFileFullName, GetDestFileFullName)
+      tempAccdb = GetDestFileFullName & ".accdb"
+	  FileCopy GetSourceFileFullName, tempAccdb
+      AddInFileInstalled = CreateMde(tempAccdb, GetDestFileFullName)
       If AddInFileInstalled Then
 	      CompletedMsg = "Add-In was compiled and saved in '" + GetAddInLocation + "'."
       Else
