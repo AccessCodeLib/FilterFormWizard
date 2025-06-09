@@ -1,0 +1,17 @@
+﻿{
+  "Info": {
+    "Class": "clsDbVbeProject",
+    "Description": "VBE Project"
+  },
+  "Items": {
+    "Name": "ACLibFilterFormWizard",
+    "Description": "Assistent für die Erstellung von Filterformularen",
+    "FileName": "ACLibFilterFormWizard.accdb",
+    "HelpFile": "",
+    "HelpContextId": 0,
+    "ConditionalCompilationArguments": "USELOCALIZATION = 1 : L10nMsgBoxReplacement = 1",
+    "Mode": 0,
+    "Protection": 0,
+    "Type": 100
+  }
+}

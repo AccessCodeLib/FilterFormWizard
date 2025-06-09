@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tabSqlFieldDataTypes>
+    <SqlFieldDataType>Boolean</SqlFieldDataType>
+    <SqlFieldDataTypeCode>SQL_Boolean</SqlFieldDataTypeCode>
+  </tabSqlFieldDataTypes>
+  <tabSqlFieldDataTypes>
+    <SqlFieldDataType>Date</SqlFieldDataType>
+    <SqlFieldDataTypeCode>SQL_Date</SqlFieldDataTypeCode>
+  </tabSqlFieldDataTypes>
+  <tabSqlFieldDataTypes>
+    <SqlFieldDataType>Numeric</SqlFieldDataType>
+    <SqlFieldDataTypeCode>SQL_Numeric</SqlFieldDataTypeCode>
+  </tabSqlFieldDataTypes>
+  <tabSqlFieldDataTypes>
+    <SqlFieldDataType>Text</SqlFieldDataType>
+    <SqlFieldDataTypeCode>SQL_Text</SqlFieldDataTypeCode>
+  </tabSqlFieldDataTypes>
+</dataroot>

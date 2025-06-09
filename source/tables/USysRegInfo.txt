@@ -1,0 +1,6 @@
+﻿Subkey	Type	ValName	Value
+HKEY_CURRENT_ACCESS_PROFILE\\Menu Add-Ins\\ACLib FilterForm Wizard	0		
+HKEY_CURRENT_ACCESS_PROFILE\\Menu Add-Ins\\ACLib FilterForm Wizard	1	Expression	=StartApplication()
+HKEY_CURRENT_ACCESS_PROFILE\\Menu Add-Ins\\ACLib FilterForm Wizard	1	Library	|ACCDIR\\ACLibFilterFormWizard.accda
+HKEY_CURRENT_ACCESS_PROFILE\\Menu Add-Ins\\ACLib FilterForm Wizard	4	BitmapID	339
+HKEY_CURRENT_ACCESS_PROFILE\\Menu Add-Ins\\ACLib FilterForm Wizard	4	Version	1
