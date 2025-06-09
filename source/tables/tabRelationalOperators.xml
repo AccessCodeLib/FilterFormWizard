@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tabRelationalOperators>
+    <RelationalOperator>&lt;=</RelationalOperator>
+    <RelationalOperatorCode>SQL_Equal + SQL_LessThan</RelationalOperatorCode>
+    <OrderPos>2</OrderPos>
+  </tabRelationalOperators>
+  <tabRelationalOperators>
+    <RelationalOperator>&lt;&gt;</RelationalOperator>
+    <RelationalOperatorCode>SQL_LessThan + SQL_GreaterThan</RelationalOperatorCode>
+    <OrderPos>4</OrderPos>
+  </tabRelationalOperators>
+  <tabRelationalOperators>
+    <RelationalOperator>=</RelationalOperator>
+    <RelationalOperatorCode>SQL_Equal</RelationalOperatorCode>
+    <OrderPos>1</OrderPos>
+  </tabRelationalOperators>
+  <tabRelationalOperators>
+    <RelationalOperator>&gt;=</RelationalOperator>
+    <RelationalOperatorCode>SQL_Equal + SQL_GreaterThan</RelationalOperatorCode>
+    <OrderPos>3</OrderPos>
+  </tabRelationalOperators>
+  <tabRelationalOperators>
+    <RelationalOperator>Between</RelationalOperator>
+    <RelationalOperatorCode>SQL_Between</RelationalOperatorCode>
+    <OrderPos>6</OrderPos>
+  </tabRelationalOperators>
+  <tabRelationalOperators>
+    <RelationalOperator>In (…)</RelationalOperator>
+    <RelationalOperatorCode>SQL_In</RelationalOperatorCode>
+    <OrderPos>7</OrderPos>
+  </tabRelationalOperators>
+  <tabRelationalOperators>
+    <RelationalOperator>Like</RelationalOperator>
+    <RelationalOperatorCode>SQL_Like</RelationalOperatorCode>
+    <OrderPos>5</OrderPos>
+  </tabRelationalOperators>
+</dataroot>

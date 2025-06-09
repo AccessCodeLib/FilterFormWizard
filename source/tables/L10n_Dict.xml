@@ -1,0 +1,497 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>&lt;Create new&gt;</KeyText>
+    <LngText>&lt;Neu erstellen&gt;</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>ACLib FilterForm Wizard</KeyText>
+    <LngText>ACLib FilterForm Wizard</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>ACLib FilterForm Wizard: Incorrect start</KeyText>
+    <LngText>ACLib FilterForm Wizard: Fehlerhafter Start</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Add filter controls</KeyText>
+    <LngText>Filter-Steuerelemente anfügen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>All modules are already up to date.
+Still re-insert?</KeyText>
+    <LngText>Es sind bereits alle Module auf dem neuesten Stand.
+Trotzdem neu einlesen?</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>already installed</KeyText>
+    <LngText>bereits installiert</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>ApplyFilter method</KeyText>
+    <LngText>ApplyFilter-Methode</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>AutoFilter Checkbox:</KeyText>
+    <LngText>AutoFilter-Checkbox:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Check wizard version</KeyText>
+    <LngText>Wizard-Version prüfen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Code has been updated</KeyText>
+    <LngText>Codemodule wurden aktualisiert</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>CommandButton "Apply Filter":</KeyText>
+    <LngText>CommandButton "Filter anwenden":</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>CommandButton "Remove Filter":</KeyText>
+    <LngText>CommandButton "Filter löschen":</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Control</KeyText>
+    <LngText>Steuerelement</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Current version is installed</KeyText>
+    <LngText>Aktuelle Version ist installiert</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Data field</KeyText>
+    <LngText>Datenfeld</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Data type</KeyText>
+    <LngText>Datentyp</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Don't show records</KeyText>
+    <LngText>Anzeige leeren</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Error during version check</KeyText>
+    <LngText>Fehler bei Versionsprüfung</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Fill list with names from data source</KeyText>
+    <LngText>FilterControl-Liste mit Namen aus Datenquelle füllen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Filter Classes</KeyText>
+    <LngText>Filter-Klassen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Filter code</KeyText>
+    <LngText>Filter-Variante</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Filter controls:</KeyText>
+    <LngText>Filter-Controls:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>filter current form</KeyText>
+    <LngText>aktuelles Formular filtern</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Filter definition in tag property</KeyText>
+    <LngText>Filter-Definition in Tag-Eigenschaft</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Filter form:</KeyText>
+    <LngText>Filter-Formular:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>FilterControlManager methods</KeyText>
+    <LngText>FilterControlManager-Methoden</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>FilterStringBuilder methods</KeyText>
+    <LngText>FilterStringBuilder-Methoden</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Insert Form Code</KeyText>
+    <LngText>Formular-Code einfügen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>insert sample code</KeyText>
+    <LngText>auskommentierten Beispiel-Code einfügen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Install classes:</KeyText>
+    <LngText>Klassen installieren:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>New</KeyText>
+    <LngText>Neu</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>New version ({0}) available</KeyText>
+    <LngText>Neue Version ({0}) verfügbar</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>or with checkbox:</KeyText>
+    <LngText>oder z. B. mittels Checkbox:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Other controls</KeyText>
+    <LngText>weitere Steuerelemente</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Please select the data form in the "ApplyFilter method" option</KeyText>
+    <LngText>Bitte wählen Sie die Datenform in der Option "ApplyFilter method" aus</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Please select the data form in the 'ApplyFilter method' option</KeyText>
+    <LngText>Bitte wählen Sie die Datenform in der Option "ApplyFilter method" aus</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Please set the data form in the 'ApplyFilter method' option first!</KeyText>
+    <LngText>Bitte zuerst in der 'ApplyFilter-Methode'-Option das Datenformular einstellen!</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Relational operator</KeyText>
+    <LngText>Vergleichsoperator</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Replace all code modules (existing modules are overwritten)</KeyText>
+    <LngText>Alle Codemodule erneuern (vorhandene Module werden überschrieben)</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Replace all code modules except 'SqlTools' (SqlTools remains unchanged)</KeyText>
+    <LngText>Alle Codemodule außer 'SqlTools' erneuern (SqlTools bleibt unverändert)</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Select SQL dialect</KeyText>
+    <LngText>SQL-Dialekt auswählen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Show all records</KeyText>
+    <LngText>Alle Datensätze anzeigen</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>show 'apply filter' is required</KeyText>
+    <LngText>Notwendigen Klick auf "Filter anwenden" signalisieren</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>SQL dialect:</KeyText>
+    <LngText>SQL-Dialekt:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Subform</KeyText>
+    <LngText>Unterformular</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>The add-in must be installed into the Access add-in directory using the add-in manager. Afterwards it has to be started via the menu entry 'ACLib FilterForm Wizard'.</KeyText>
+    <LngText>Das Add-In muss mit dem Add-In-Manager ins Access-Add-In-Verzeichnis installiert werden. Anschließend ist es über den Menü-Eintrag "ACLib FilterForm Wizard" zu starten.</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Update code modules in the add-in from the SCC repository (draft).</KeyText>
+    <LngText>Codemodule in Add-In aus SCC-Repository aktualisieren (draft).</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>Update code modules in the add-in from the SCC repository (master).</KeyText>
+    <LngText>Codemodule in Add-In aus SCC-Repository aktualisieren (master).</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>DE</LangCode>
+    <KeyText>without parameter transfer all records are displayed</KeyText>
+    <LngText>ohne Parameterübergabe werden alle Datensätze angezeigt</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>&lt;Create new&gt;</KeyText>
+    <LngText>&lt;Create new&gt;</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>ACLib FilterForm Wizard</KeyText>
+    <LngText>ACLib FilterForm Wizard</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>ACLib FilterForm Wizard: Incorrect start</KeyText>
+    <LngText>ACLib FilterForm Wizard: Incorrect start</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Add filter controls</KeyText>
+    <LngText>Add filter controls</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>All modules are already up to date.
+Still re-insert?</KeyText>
+    <LngText>All modules are already up to date.
+Still re-insert?</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>already installed</KeyText>
+    <LngText>already installed</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>ApplyFilter method</KeyText>
+    <LngText>ApplyFilter method</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>AutoFilter Checkbox:</KeyText>
+    <LngText>AutoFilter Checkbox:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Check wizard version</KeyText>
+    <LngText>Check wizard version</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Code has been updated</KeyText>
+    <LngText>Code has been updated</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>CommandButton "Apply Filter":</KeyText>
+    <LngText>CommandButton "Apply Filter":</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>CommandButton "Remove Filter":</KeyText>
+    <LngText>CommandButton "Remove Filter":</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Control</KeyText>
+    <LngText>Control</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Current version is installed</KeyText>
+    <LngText>Current version is installed</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Data field</KeyText>
+    <LngText>Data field</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Data type</KeyText>
+    <LngText>Data type</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Don't show records</KeyText>
+    <LngText>Don't show records</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Error during version check</KeyText>
+    <LngText>Error during version check</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Fill list with names from data source</KeyText>
+    <LngText>Fill list with names from data source</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Filter Classes</KeyText>
+    <LngText>Filter Classes</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Filter code</KeyText>
+    <LngText>Filter code</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Filter controls:</KeyText>
+    <LngText>Filter controls:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>filter current form</KeyText>
+    <LngText>filter current form</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Filter definition in tag property</KeyText>
+    <LngText>Filter definition in tag property</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Filter form:</KeyText>
+    <LngText>Filter form:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>FilterControlManager methods</KeyText>
+    <LngText>FilterControlManager methods</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>FilterStringBuilder methods</KeyText>
+    <LngText>FilterStringBuilder methods</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Insert Form Code</KeyText>
+    <LngText>Insert Form Code</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>insert sample code</KeyText>
+    <LngText>insert sample code</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Install classes:</KeyText>
+    <LngText>Install classes:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>New</KeyText>
+    <LngText>New</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>New version ({0}) available</KeyText>
+    <LngText>New version ({0}) available</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>or with checkbox:</KeyText>
+    <LngText>or with checkbox:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Other controls</KeyText>
+    <LngText>Other controls</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Please select the data form in the "ApplyFilter method" option</KeyText>
+    <LngText>Please select the data form in the "ApplyFilter method" option</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Please select the data form in the 'ApplyFilter method' option</KeyText>
+    <LngText>Please select the data form in the 'ApplyFilter method' option</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Please set the data form in the 'ApplyFilter method' option first!</KeyText>
+    <LngText>Please set the data form in the 'ApplyFilter method' option first!</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Relational operator</KeyText>
+    <LngText>Relational operator</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Replace all code modules (existing modules are overwritten)</KeyText>
+    <LngText>Replace all code modules (existing modules are overwritten)</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Replace all code modules except 'SqlTools' (SqlTools remains unchanged)</KeyText>
+    <LngText>Replace all code modules except 'SqlTools' (SqlTools remains unchanged)</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Select SQL dialect</KeyText>
+    <LngText>Select SQL dialect</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Show all records</KeyText>
+    <LngText>Show all records</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>show 'apply filter' is required</KeyText>
+    <LngText>show 'apply filter' is required</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>SQL dialect:</KeyText>
+    <LngText>SQL dialect:</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Subform</KeyText>
+    <LngText>Subform</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>The add-in must be installed into the Access add-in directory using the add-in manager. Afterwards it has to be started via the menu entry 'ACLib FilterForm Wizard'.</KeyText>
+    <LngText>The add-in must be installed into the Access add-in directory using the add-in manager. Afterwards it has to be started via the menu entry 'ACLib FilterForm Wizard'.</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Update code modules in the add-in from the SCC repository (draft).</KeyText>
+    <LngText>Update code modules in the add-in from the SCC repository (draft).</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>Update code modules in the add-in from the SCC repository (master).</KeyText>
+    <LngText>Update code modules in the add-in from the SCC repository (master).</LngText>
+  </L10n_Dict>
+  <L10n_Dict>
+    <LangCode>EN</LangCode>
+    <KeyText>without parameter transfer all records are displayed</KeyText>
+    <LngText>without parameter transfer all records are displayed</LngText>
+  </L10n_Dict>
+</dataroot>

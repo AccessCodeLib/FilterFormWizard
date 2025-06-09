@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tabSqlLangFormat>
+    <SqlLang>Jet/ADODB</SqlLang>
+    <SqlDateFormat>\#yyyy-mm-dd hh:nn:ss\#</SqlDateFormat>
+    <SqlBooleanTrueString>True</SqlBooleanTrueString>
+    <SqlWildCardString>%</SqlWildCardString>
+  </tabSqlLangFormat>
+  <tabSqlLangFormat>
+    <SqlLang>Jet/DAO</SqlLang>
+    <SqlDateFormat>\#yyyy-mm-dd hh:nn:ss\#</SqlDateFormat>
+    <SqlBooleanTrueString>True</SqlBooleanTrueString>
+    <SqlWildCardString>*</SqlWildCardString>
+  </tabSqlLangFormat>
+  <tabSqlLangFormat>
+    <SqlLang>MySQL</SqlLang>
+    <SqlDateFormat>'yyyy-mm-dd hh:nn:ss'</SqlDateFormat>
+    <SqlBooleanTrueString>1</SqlBooleanTrueString>
+    <SqlWildCardString>%</SqlWildCardString>
+  </tabSqlLangFormat>
+  <tabSqlLangFormat>
+    <SqlLang>T-SQL (SQL Server)</SqlLang>
+    <SqlDateFormat>'yyyymmdd hh:nn:ss'</SqlDateFormat>
+    <SqlBooleanTrueString>1</SqlBooleanTrueString>
+    <SqlWildCardString>%</SqlWildCardString>
+  </tabSqlLangFormat>
+</dataroot>
