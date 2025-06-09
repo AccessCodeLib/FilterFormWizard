@@ -58,7 +58,7 @@
         "Format": "XML Format"
       },
       "USysRegInfo": {
-        "Format": "Tab Delimited"
+        "Format": "XML Format"
       },
       "USysRibbons": {
         "Format": "Tab Delimited"
