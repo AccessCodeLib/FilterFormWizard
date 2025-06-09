@@ -66,7 +66,7 @@
     },
     "SchemaExports": {
     },
-    "RunBeforeExport": "",
+    "RunBeforeExport": "VcsRunBeforeExport",
     "RunAfterExport": "",
     "RunBeforeBuild": "",
     "RunAfterBuild": "",
