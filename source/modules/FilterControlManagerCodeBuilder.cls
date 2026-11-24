@@ -65,7 +65,7 @@ Private Property Get IFilterFormCodeBuilder_ClassInitalisationCode( _
 
       Code = Code & vbNewLine & _
          "Private Sub SetApplyFilterSignal()" & vbNewLine & _
-         "' " & L10n.Text("Notwendigen Klick auf ""Filter anwenden"" signalisieren") & vbNewLine
+         "' " & L10n.Text("show 'apply filter' is required") & vbNewLine
 
       If Len(AutoFilterCtlName) > 0 Then
          Code = Code & _
@@ -94,7 +94,7 @@ Private Property Get IFilterFormCodeBuilder_ClassInitalisationCode( _
    If Len(AutoFilterCtlName) Then
       Code = Code & "   m_FilterControlManager.AutoFilterOn = Nz(Me." & AutoFilterCtlName & ".Value, False)" & vbNewLine
    Else
-      Code = Code & "   m_FilterControlManager.AutoFilterOn = True '" & L10n.Text("oder z. B. mittels Checkbox:") & " = Nz(Me.cbAutoFilter.Value, False)" & vbNewLine
+      Code = Code & "   m_FilterControlManager.AutoFilterOn = True '" & L10n.Text("or with checkbox:") & " = Nz(Me.cbAutoFilter.Value, False)" & vbNewLine
    End If
    Code = Code & "End Sub" & vbNewLine
 
@@ -230,8 +230,8 @@ Private Function GetRemoveFilterCode() As String
    Dim Code As String
 
    Code = "Private Sub RemoveFilter()" & vbNewLine & _
-          "'  FilterControlManager.RemoveFilter ""1=0""  ' 1=0 .. " & L10n.Text("damit nach dem Entfernen der Filterwerte keine Datensätze angezeigt werden") & vbNewLine & _
-          "   FilterControlManager.RemoveFilter        ' " & L10n.Text("ohne Parameterübergabe werden alle Datensätze angezeigt") & vbNewLine & _
+          "'  FilterControlManager.RemoveFilter ""1=0""  ' 1=0 .. " & L10n.Text("Don't show records") & vbNewLine & _
+          "   FilterControlManager.RemoveFilter        ' " & L10n.Text("without parameter transfer all records are displayed") & vbNewLine & _
           "End Sub" & vbNewLine
 
    GetRemoveFilterCode = Code

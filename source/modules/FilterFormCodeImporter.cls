@@ -200,7 +200,7 @@ Private Function GetApplyFilterMethodeCode( _
    Select Case KindOfApplyFilterMethode
       Case 0
          LinePrefix = "'"
-         SufFormRefCode = " ' oder Me.EinUnterformular.Form"
+         SufFormRefCode = " ' or Me.YourSubform.Form"
          AddDebugLine = True
       Case 1
          LinePrefix = vbNullString
@@ -208,7 +208,7 @@ Private Function GetApplyFilterMethodeCode( _
       Case 2
          LinePrefix = vbNullString
          If Len(ApplyFilterMethodeSubFormName) = 0 Then
-            Err.Raise vbObjectError, "FilterControlManagerImporter", "Bitte Unterformular angeben"
+            Err.Raise vbObjectError, "FilterControlManagerImporter", L10n.Text("Please set the data form in the 'ApplyFilter method' option first!")
          End If
          SufFormRefCode = "." & ApplyFilterMethodeSubFormName & ".Form"
    End Select
@@ -245,7 +245,7 @@ Private Function GetFilterControlCodeLines() As String
 
    If m_FilterControlLines.Items.Count = 0 Then
       GetFilterControlCodeLines = _
-         "'      .Add ""DatenfeldName"", SQL_Text, SQL_Like + SQL_Add_WildCardSuffix, Me.Steuerelement" & vbNewLine & _
+         "'      .Add ""DataFieldName"", SQL_Text, SQL_Like + SQL_Add_WildCardSuffix, Me.ControlName" & vbNewLine & _
          "'      .Add ..." & vbNewLine & _
          "'      .Add ..."
          Exit Function
