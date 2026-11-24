@@ -6,14 +6,44 @@
   "Items": {
     "Databases": {
       "SummaryInfo": {
-        "Author": "Josef Pötzl",
-        "Category": "ACLib Wizard",
-        "Comments": "Filter-Formulare mit Klasse",
-        "Company": "access-codelib.net",
-        "Hyperlink base": "access-codelib.net",
-        "Manager": "Josef Pötzl",
-        "Subject": "ACLib Wizard",
-        "Title": "ACLib FilterForm Wizard"
+        "Author": {
+          "Type": 10,
+          "Value": "Josef Pötzl"
+        },
+        "Category": {
+          "Type": 10,
+          "Value": "ACLib Wizard"
+        },
+        "Comments": {
+          "Type": 10,
+          "Value": "Filter-Formulare mit Klasse"
+        },
+        "Company": {
+          "Type": 10,
+          "Value": "access-codelib.net"
+        },
+        "Hyperlink base": {
+          "Type": 10,
+          "Value": "access-codelib.net"
+        },
+        "Manager": {
+          "Type": 10,
+          "Value": "Josef Pötzl"
+        },
+        "Subject": {
+          "Type": 10,
+          "Value": "ACLib Wizard"
+        },
+        "Title": {
+          "Type": 10,
+          "Value": "ACLib FilterForm Wizard"
+        }
+      },
+      "UserDefined": {
+        "ReplicateProject": {
+          "Type": 1,
+          "Value": true
+        }
       }
     }
   }

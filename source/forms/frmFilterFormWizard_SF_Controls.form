@@ -10,10 +10,10 @@ Begin Form
     Width =10050
     DatasheetFontHeight =11
     ItemSuffix =33
-    Left =3300
-    Top =3443
-    Right =13635
-    Bottom =6428
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0xc4d680b8ef58e440
     End
@@ -138,9 +138,6 @@ Begin Form
                     Caption ="Control"
                     FontName ="Tahoma"
                     Tag ="LANG:"
-                    LayoutCachedLeft =5831
-                    LayoutCachedWidth =7871
-                    LayoutCachedHeight =285
                     ThemeFontIndex =-1
                 End
                 Begin Label
@@ -153,9 +150,6 @@ Begin Form
                     Caption ="Data field"
                     FontName ="Tahoma"
                     Tag ="LANG:"
-                    LayoutCachedLeft =56
-                    LayoutCachedWidth =2213
-                    LayoutCachedHeight =285
                     ThemeFontIndex =-1
                 End
                 Begin Label
@@ -168,9 +162,6 @@ Begin Form
                     Caption ="Relational operator"
                     FontName ="Tahoma"
                     Tag ="LANG:"
-                    LayoutCachedLeft =3746
-                    LayoutCachedWidth =5561
-                    LayoutCachedHeight =285
                     ThemeFontIndex =-1
                 End
                 Begin Label
@@ -183,9 +174,6 @@ Begin Form
                     Caption ="Data type"
                     FontName ="Tahoma"
                     Tag ="LANG:"
-                    LayoutCachedLeft =2268
-                    LayoutCachedWidth =3648
-                    LayoutCachedHeight =285
                     ThemeFontIndex =-1
                 End
                 Begin Label
@@ -198,9 +186,6 @@ Begin Form
                     Caption ="Other controls"
                     FontName ="Tahoma"
                     Tag ="LANG:"
-                    LayoutCachedLeft =7875
-                    LayoutCachedWidth =10050
-                    LayoutCachedHeight =285
                     ThemeFontIndex =-1
                 End
             End
@@ -237,16 +222,7 @@ Begin Form
                     FontName ="Tahoma"
                     AllowValueListEdits =0
 
-                    LayoutCachedLeft =5831
-                    LayoutCachedTop =29
-                    LayoutCachedWidth =7872
-                    LayoutCachedHeight =314
                     ThemeFontIndex =-1
-                    ConditionalFormat14 = Begin
-                        0x01000100000001000000000000000000000000000000ffffff00160000005b00 ,
-                        0x6300620043007200650061007400650043006f006e00740072006f006c005d00 ,
-                        0x3d005400720075006500000000000000000000000000000000000000000000
-                    End
                 End
                 Begin ComboBox
                     LimitToList = NotDefault
@@ -270,10 +246,6 @@ Begin Form
                     FontName ="Tahoma"
                     AllowValueListEdits =0
 
-                    LayoutCachedLeft =3746
-                    LayoutCachedTop =29
-                    LayoutCachedWidth =5549
-                    LayoutCachedHeight =314
                     ThemeFontIndex =-1
                 End
                 Begin ComboBox
@@ -297,10 +269,6 @@ Begin Form
                     FontName ="Tahoma"
                     AllowValueListEdits =0
 
-                    LayoutCachedLeft =2268
-                    LayoutCachedTop =29
-                    LayoutCachedWidth =3621
-                    LayoutCachedHeight =314
                     ThemeFontIndex =-1
                 End
                 Begin CheckBox
@@ -312,10 +280,6 @@ Begin Form
                     ControlSource ="RelationalOperatorNot"
                     DefaultValue ="False"
 
-                    LayoutCachedLeft =5465
-                    LayoutCachedTop =390
-                    LayoutCachedWidth =5725
-                    LayoutCachedHeight =630
                     Begin
                         Begin Label
                             OverlapFlags =127
@@ -327,10 +291,6 @@ Begin Form
                             Name ="labRelationalOperatorNot"
                             Caption ="Not"
                             FontName ="Tahoma"
-                            LayoutCachedLeft =5135
-                            LayoutCachedTop =360
-                            LayoutCachedWidth =5465
-                            LayoutCachedHeight =600
                             ThemeFontIndex =-1
                         End
                     End
@@ -344,10 +304,6 @@ Begin Form
                     ControlSource ="WildCardSuffix"
                     DefaultValue ="False"
 
-                    LayoutCachedLeft =4181
-                    LayoutCachedTop =390
-                    LayoutCachedWidth =4441
-                    LayoutCachedHeight =630
                     Begin
                         Begin Label
                             OverlapFlags =119
@@ -359,10 +315,6 @@ Begin Form
                             Name ="labWildCardSuffix"
                             Caption ="xxx*"
                             FontName ="Tahoma"
-                            LayoutCachedLeft =3746
-                            LayoutCachedTop =360
-                            LayoutCachedWidth =4181
-                            LayoutCachedHeight =600
                             ThemeFontIndex =-1
                         End
                     End
@@ -376,10 +328,6 @@ Begin Form
                     ControlSource ="WildCardPrefix"
                     DefaultValue ="False"
 
-                    LayoutCachedLeft =4886
-                    LayoutCachedTop =390
-                    LayoutCachedWidth =5146
-                    LayoutCachedHeight =630
                     Begin
                         Begin Label
                             OverlapFlags =119
@@ -391,10 +339,6 @@ Begin Form
                             Name ="labWildCardPrefix"
                             Caption ="*xxx"
                             FontName ="Tahoma"
-                            LayoutCachedLeft =4451
-                            LayoutCachedTop =360
-                            LayoutCachedWidth =4886
-                            LayoutCachedHeight =600
                             ThemeFontIndex =-1
                         End
                     End
@@ -411,10 +355,6 @@ Begin Form
                     ControlSource ="DataField"
                     FontName ="Tahoma"
 
-                    LayoutCachedLeft =56
-                    LayoutCachedTop =29
-                    LayoutCachedWidth =2216
-                    LayoutCachedHeight =314
                     ThemeFontIndex =-1
                 End
                 Begin TextBox
@@ -430,25 +370,9 @@ Begin Form
                     ControlSource ="Control2"
                     StatusBarText ="Mehrere Steuerelemente mit Komma trennen"
                     FontName ="Tahoma"
-                    ConditionalFormat = Begin
-                        0x0100000090000000010000000100000000000000000000001700000000000000 ,
-                        0x00000000ffffff00000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x5b006300620043007200650061007400650043006f006e00740072006f006c00 ,
-                        0x5d003d00540072007500650000000000
-                    End
                     HorizontalAnchor =2
 
-                    LayoutCachedLeft =7938
-                    LayoutCachedTop =29
-                    LayoutCachedWidth =9994
-                    LayoutCachedHeight =314
                     ThemeFontIndex =-1
-                    ConditionalFormat14 = Begin
-                        0x01000100000001000000000000000000000000000000ffffff00160000005b00 ,
-                        0x6300620043007200650061007400650043006f006e00740072006f006c005d00 ,
-                        0x3d005400720075006500000000000000000000000000000000000000000000
-                    End
                 End
                 Begin CheckBox
                     OverlapFlags =93
@@ -460,10 +384,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     DefaultValue ="False"
 
-                    LayoutCachedLeft =6222
-                    LayoutCachedTop =390
-                    LayoutCachedWidth =6482
-                    LayoutCachedHeight =630
                     Begin
                         Begin Label
                             OverlapFlags =255
@@ -476,10 +396,6 @@ Begin Form
                             Caption ="New"
                             FontName ="Tahoma"
                             Tag ="LANG:"
-                            LayoutCachedLeft =5831
-                            LayoutCachedTop =360
-                            LayoutCachedWidth =6245
-                            LayoutCachedHeight =600
                             ThemeFontIndex =-1
                             ForeThemeColorIndex =0
                             ForeTint =100.0
@@ -500,10 +416,6 @@ Begin Form
                     ControlSource ="ControlType"
                     OnEnter ="[Event Procedure]"
 
-                    LayoutCachedLeft =5839
-                    LayoutCachedTop =336
-                    LayoutCachedWidth =9976
-                    LayoutCachedHeight =636
                     Begin
                         Begin OptionButton
                             OverlapFlags =119
@@ -512,10 +424,6 @@ Begin Form
                             OptionValue =109
                             Name ="ogfldTextbox"
 
-                            LayoutCachedLeft =6689
-                            LayoutCachedTop =396
-                            LayoutCachedWidth =6949
-                            LayoutCachedHeight =636
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -525,10 +433,6 @@ Begin Form
                                     Height =300
                                     Name ="labCreateTextbox"
                                     Caption ="TextBox"
-                                    LayoutCachedLeft =6919
-                                    LayoutCachedTop =336
-                                    LayoutCachedWidth =7795
-                                    LayoutCachedHeight =636
                                 End
                             End
                         End
@@ -540,10 +444,6 @@ Begin Form
                             OptionValue =111
                             Name ="ogfldCombobox"
 
-                            LayoutCachedLeft =7992
-                            LayoutCachedTop =396
-                            LayoutCachedWidth =8252
-                            LayoutCachedHeight =636
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -553,10 +453,6 @@ Begin Form
                                     Height =300
                                     Name ="labCreateCombobox"
                                     Caption ="ComboBox"
-                                    LayoutCachedLeft =8219
-                                    LayoutCachedTop =336
-                                    LayoutCachedWidth =9251
-                                    LayoutCachedHeight =636
                                 End
                             End
                         End

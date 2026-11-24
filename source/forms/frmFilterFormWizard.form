@@ -19,10 +19,10 @@ Begin Form
     Width =10771
     DatasheetFontHeight =10
     ItemSuffix =136
-    Left =2835
-    Top =1470
-    Right =13605
-    Bottom =7823
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0x668d2cd46a58e440
     End
@@ -152,10 +152,6 @@ Begin Form
                     FontName ="Marlett"
                     OnClick ="[Event Procedure]"
                     VerticalAnchor =1
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =5394
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =5689
                 End
                 Begin Label
                     OldBorderStyle =1
@@ -173,10 +169,6 @@ Begin Form
                     Name ="labCopyModulFilterControlManager"
                     FontName ="Marlett"
                     VerticalAnchor =1
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =4710
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =5005
                 End
                 Begin Label
                     OldBorderStyle =1
@@ -194,10 +186,6 @@ Begin Form
                     Name ="labCopyModulSqlTools"
                     FontName ="Marlett"
                     VerticalAnchor =1
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =5769
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =6064
                 End
                 Begin Label
                     OldBorderStyle =1
@@ -215,10 +203,6 @@ Begin Form
                     Name ="labCopyModules"
                     FontName ="Marlett"
                     VerticalAnchor =1
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =4371
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =4666
                 End
                 Begin Line
                     OverlapFlags =85
@@ -229,10 +213,6 @@ Begin Form
                     Height =2098
                     Name ="Linie49"
                     VerticalAnchor =1
-                    LayoutCachedLeft =2748
-                    LayoutCachedTop =4210
-                    LayoutCachedWidth =2748
-                    LayoutCachedHeight =6308
                 End
                 Begin TextBox
                     AllowAutoCorrect = NotDefault
@@ -263,10 +243,6 @@ Begin Form
                     HorizontalAnchor =1
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =7426
-                    LayoutCachedTop =5832
-                    LayoutCachedWidth =10498
-                    LayoutCachedHeight =6207
                     Overlaps =1
                 End
                 Begin Label
@@ -279,10 +255,6 @@ Begin Form
                     Name ="labCaptionCopyModulFilterControlManager"
                     Caption ="FilterControlManager"
                     VerticalAnchor =1
-                    LayoutCachedLeft =315
-                    LayoutCachedTop =4740
-                    LayoutCachedWidth =2306
-                    LayoutCachedHeight =4995
                 End
                 Begin Label
                     OverlapFlags =85
@@ -294,10 +266,6 @@ Begin Form
                     Name ="labCaptionCopyModulFilterStringBuilder"
                     Caption ="FilterStringBuilder"
                     VerticalAnchor =1
-                    LayoutCachedLeft =315
-                    LayoutCachedTop =5419
-                    LayoutCachedWidth =2306
-                    LayoutCachedHeight =5674
                 End
                 Begin Label
                     OverlapFlags =85
@@ -309,10 +277,6 @@ Begin Form
                     Name ="labCaptionCopyModulSqlTools"
                     Caption ="SqlTools"
                     VerticalAnchor =1
-                    LayoutCachedLeft =315
-                    LayoutCachedTop =5794
-                    LayoutCachedWidth =2306
-                    LayoutCachedHeight =6049
                 End
                 Begin CommandButton
                     Transparent = NotDefault
@@ -327,10 +291,6 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =5394
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =5689
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -346,10 +306,6 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =4710
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =5005
                     Overlaps =1
                 End
                 Begin CommandButton
@@ -365,10 +321,6 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =5769
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =6064
                     Overlaps =1
                 End
                 Begin Label
@@ -387,10 +339,6 @@ Begin Form
                     OnMouseMove ="[Event Procedure]"
                     Tag ="LANG:"
                     VerticalAnchor =1
-                    LayoutCachedLeft =84
-                    LayoutCachedTop =4393
-                    LayoutCachedWidth =2229
-                    LayoutCachedHeight =4648
                 End
                 Begin CommandButton
                     Transparent = NotDefault
@@ -405,10 +353,6 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =4371
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =4666
                     Overlaps =1
                 End
                 Begin ComboBox
@@ -427,10 +371,6 @@ Begin Form
                     FontName ="Verdana"
                     OnGotFocus ="[Event Procedure]"
 
-                    LayoutCachedLeft =2003
-                    LayoutCachedTop =165
-                    LayoutCachedWidth =5405
-                    LayoutCachedHeight =450
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -443,10 +383,6 @@ Begin Form
                             Caption ="Filter form:"
                             FontName ="Verdana"
                             Tag ="LANG:"
-                            LayoutCachedLeft =77
-                            LayoutCachedTop =165
-                            LayoutCachedWidth =1997
-                            LayoutCachedHeight =450
                         End
                     End
                 End
@@ -465,10 +401,6 @@ Begin Form
                     HorizontalAnchor =2
                     VerticalAnchor =2
 
-                    LayoutCachedLeft =84
-                    LayoutCachedTop =895
-                    LayoutCachedWidth =10689
-                    LayoutCachedHeight =4150
                     BorderThemeColorIndex =-1
                     BorderShade =100.0
                     Begin
@@ -482,10 +414,6 @@ Begin Form
                             Name ="labFilterControls"
                             Caption ="Filter controls:"
                             Tag ="LANG:"
-                            LayoutCachedLeft =84
-                            LayoutCachedTop =610
-                            LayoutCachedWidth =2004
-                            LayoutCachedHeight =895
                         End
                     End
                 End
@@ -503,10 +431,6 @@ Begin Form
                     HorizontalAnchor =1
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =3120
-                    LayoutCachedTop =4705
-                    LayoutCachedWidth =6862
-                    LayoutCachedHeight =6009
                     Begin
                         Begin Label
                             BackStyle =1
@@ -522,10 +446,6 @@ Begin Form
                             Tag ="LANG:"
                             HorizontalAnchor =1
                             VerticalAnchor =1
-                            LayoutCachedLeft =3240
-                            LayoutCachedTop =4590
-                            LayoutCachedWidth =4776
-                            LayoutCachedHeight =4830
                         End
                         Begin OptionButton
                             OverlapFlags =87
@@ -536,10 +456,6 @@ Begin Form
                             HorizontalAnchor =1
                             VerticalAnchor =1
 
-                            LayoutCachedLeft =3270
-                            LayoutCachedTop =4977
-                            LayoutCachedWidth =3530
-                            LayoutCachedHeight =5217
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -552,10 +468,6 @@ Begin Form
                                     Tag ="LANG:"
                                     HorizontalAnchor =1
                                     VerticalAnchor =1
-                                    LayoutCachedLeft =3495
-                                    LayoutCachedTop =4945
-                                    LayoutCachedWidth =6570
-                                    LayoutCachedHeight =5185
                                 End
                             End
                         End
@@ -569,10 +481,6 @@ Begin Form
                             HorizontalAnchor =1
                             VerticalAnchor =1
 
-                            LayoutCachedLeft =3270
-                            LayoutCachedTop =5287
-                            LayoutCachedWidth =3530
-                            LayoutCachedHeight =5527
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -585,10 +493,6 @@ Begin Form
                                     Tag ="LANG:"
                                     HorizontalAnchor =1
                                     VerticalAnchor =1
-                                    LayoutCachedLeft =3499
-                                    LayoutCachedTop =5260
-                                    LayoutCachedWidth =6548
-                                    LayoutCachedHeight =5500
                                 End
                             End
                         End
@@ -602,10 +506,6 @@ Begin Form
                             HorizontalAnchor =1
                             VerticalAnchor =1
 
-                            LayoutCachedLeft =3270
-                            LayoutCachedTop =5630
-                            LayoutCachedWidth =3530
-                            LayoutCachedHeight =5870
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -618,10 +518,6 @@ Begin Form
                                     Tag ="LANG:"
                                     HorizontalAnchor =1
                                     VerticalAnchor =1
-                                    LayoutCachedLeft =3499
-                                    LayoutCachedTop =5600
-                                    LayoutCachedWidth =4613
-                                    LayoutCachedHeight =5840
                                 End
                             End
                         End
@@ -645,10 +541,6 @@ Begin Form
                     HorizontalAnchor =1
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =4613
-                    LayoutCachedTop =5600
-                    LayoutCachedWidth =6674
-                    LayoutCachedHeight =5840
                 End
                 Begin Label
                     OverlapFlags =215
@@ -663,10 +555,6 @@ Begin Form
                     FontName ="Small Fonts"
                     Tag ="LANG:"
                     VerticalAnchor =1
-                    LayoutCachedLeft =1176
-                    LayoutCachedTop =4183
-                    LayoutCachedWidth =2724
-                    LayoutCachedHeight =4393
                 End
                 Begin OptionGroup
                     Enabled = NotDefault
@@ -682,10 +570,6 @@ Begin Form
                     HorizontalAnchor =1
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =7260
-                    LayoutCachedTop =4720
-                    LayoutCachedWidth =10718
-                    LayoutCachedHeight =6294
                     Begin
                         Begin Label
                             BackStyle =1
@@ -700,10 +584,6 @@ Begin Form
                             Tag ="LANG:"
                             HorizontalAnchor =1
                             VerticalAnchor =1
-                            LayoutCachedLeft =7376
-                            LayoutCachedTop =4590
-                            LayoutCachedWidth =8771
-                            LayoutCachedHeight =4830
                         End
                         Begin OptionButton
                             OverlapFlags =87
@@ -714,10 +594,6 @@ Begin Form
                             HorizontalAnchor =1
                             VerticalAnchor =1
 
-                            LayoutCachedLeft =7365
-                            LayoutCachedTop =4937
-                            LayoutCachedWidth =7625
-                            LayoutCachedHeight =5177
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -730,10 +606,6 @@ Begin Form
                                     Tag ="LANG:"
                                     HorizontalAnchor =1
                                     VerticalAnchor =1
-                                    LayoutCachedLeft =7594
-                                    LayoutCachedTop =4905
-                                    LayoutCachedWidth =10542
-                                    LayoutCachedHeight =5145
                                 End
                             End
                         End
@@ -747,10 +619,6 @@ Begin Form
                             HorizontalAnchor =1
                             VerticalAnchor =1
 
-                            LayoutCachedLeft =7365
-                            LayoutCachedTop =5517
-                            LayoutCachedWidth =7625
-                            LayoutCachedHeight =5757
                             Begin
                                 Begin Label
                                     OverlapFlags =247
@@ -763,10 +631,6 @@ Begin Form
                                     Tag ="LANG:"
                                     HorizontalAnchor =1
                                     VerticalAnchor =1
-                                    LayoutCachedLeft =7594
-                                    LayoutCachedTop =5490
-                                    LayoutCachedWidth =10542
-                                    LayoutCachedHeight =5730
                                 End
                             End
                         End
@@ -792,10 +656,6 @@ Begin Form
                     HorizontalAnchor =1
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =8831
-                    LayoutCachedTop =4195
-                    LayoutCachedWidth =10667
-                    LayoutCachedHeight =4435
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -810,10 +670,6 @@ Begin Form
                             Tag ="LANG:"
                             HorizontalAnchor =1
                             VerticalAnchor =1
-                            LayoutCachedLeft =7766
-                            LayoutCachedTop =4195
-                            LayoutCachedWidth =8831
-                            LayoutCachedHeight =4435
                         End
                     End
                 End
@@ -830,10 +686,6 @@ Begin Form
                     Name ="cbxRemoveFilterCtl"
                     RowSourceType ="Value List"
 
-                    LayoutCachedLeft =8423
-                    LayoutCachedTop =308
-                    LayoutCachedWidth =10082
-                    LayoutCachedHeight =548
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -846,10 +698,6 @@ Begin Form
                             Name ="labRemoveFilterCtl"
                             Caption ="CommandButton \"Remove Filter\":"
                             Tag ="LANG:"
-                            LayoutCachedLeft =5496
-                            LayoutCachedTop =312
-                            LayoutCachedWidth =8421
-                            LayoutCachedHeight =552
                         End
                     End
                 End
@@ -866,10 +714,6 @@ Begin Form
                     RowSourceType ="Value List"
                     ColumnWidths ="2268"
 
-                    LayoutCachedLeft =8423
-                    LayoutCachedTop =24
-                    LayoutCachedWidth =10082
-                    LayoutCachedHeight =264
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -882,10 +726,6 @@ Begin Form
                             Name ="labUseFilterCtl"
                             Caption ="CommandButton \"Apply Filter\":"
                             Tag ="LANG:"
-                            LayoutCachedLeft =5496
-                            LayoutCachedTop =28
-                            LayoutCachedWidth =8421
-                            LayoutCachedHeight =268
                         End
                     End
                 End
@@ -902,10 +742,6 @@ Begin Form
                     Name ="cbxAutoFilterCtl"
                     RowSourceType ="Value List"
 
-                    LayoutCachedLeft =8424
-                    LayoutCachedTop =598
-                    LayoutCachedWidth =10083
-                    LayoutCachedHeight =838
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -918,10 +754,6 @@ Begin Form
                             Name ="labAutoFilterCtl"
                             Caption ="AutoFilter Checkbox:"
                             Tag ="LANG:"
-                            LayoutCachedLeft =5497
-                            LayoutCachedTop =602
-                            LayoutCachedWidth =8422
-                            LayoutCachedHeight =842
                         End
                     End
                 End
@@ -940,10 +772,6 @@ Begin Form
                     OnMouseMove ="[Event Procedure]"
                     Tag ="unchecked|LANG:"
                     VerticalAnchor =1
-                    LayoutCachedLeft =56
-                    LayoutCachedTop =6122
-                    LayoutCachedWidth =2624
-                    LayoutCachedHeight =6362
                 End
                 Begin CommandButton
                     Enabled = NotDefault
@@ -961,10 +789,6 @@ Begin Form
                     Tag ="LANG:"
                     ControlTipText ="Please select the data form in the 'ApplyFilter method' option"
 
-                    LayoutCachedLeft =2004
-                    LayoutCachedTop =595
-                    LayoutCachedWidth =5406
-                    LayoutCachedHeight =879
                     BackColor =-2147483633
                     Overlaps =1
                 End
@@ -989,10 +813,6 @@ Begin Form
                     AfterUpdate ="[Event Procedure]"
                     HorizontalAnchor =1
 
-                    LayoutCachedLeft =10128
-                    LayoutCachedTop =24
-                    LayoutCachedWidth =10689
-                    LayoutCachedHeight =252
                 End
                 Begin CheckBox
                     Enabled = NotDefault
@@ -1003,10 +823,6 @@ Begin Form
                     Name ="cbUseFilterControlTagConverter"
                     DefaultValue ="False"
 
-                    LayoutCachedLeft =7605
-                    LayoutCachedTop =5191
-                    LayoutCachedWidth =7865
-                    LayoutCachedHeight =5431
                     Begin
                         Begin Label
                             OverlapFlags =247
@@ -1017,10 +833,6 @@ Begin Form
                             Name ="Label132"
                             Caption ="Filter definition in tag property"
                             Tag ="LANG:"
-                            LayoutCachedLeft =7833
-                            LayoutCachedTop =5160
-                            LayoutCachedWidth =10593
-                            LayoutCachedHeight =5400
                         End
                     End
                 End
@@ -1040,10 +852,6 @@ Begin Form
                     Name ="labCopyModulFilterControltagConverter"
                     FontName ="Marlett"
                     VerticalAnchor =1
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =5019
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =5314
                 End
                 Begin Label
                     OverlapFlags =85
@@ -1056,10 +864,6 @@ Begin Form
                     Name ="labCaptionCopyModulFilterControlTagConverter"
                     Caption ="FilterControlTagConverter"
                     VerticalAnchor =1
-                    LayoutCachedLeft =315
-                    LayoutCachedTop =5044
-                    LayoutCachedWidth =2306
-                    LayoutCachedHeight =5299
                 End
                 Begin CommandButton
                     Transparent = NotDefault
@@ -1074,10 +878,6 @@ Begin Form
                     OnClick ="[Event Procedure]"
                     VerticalAnchor =1
 
-                    LayoutCachedLeft =2345
-                    LayoutCachedTop =5019
-                    LayoutCachedWidth =2640
-                    LayoutCachedHeight =5314
                     Overlaps =1
                 End
             End

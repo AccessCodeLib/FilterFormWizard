@@ -1,0 +1,38 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "frmFilterFormWizard_SF_Controls Conditional Formatting"
+  },
+  "Items": {
+    "ConditionalFormatting": {
+      "fcControl": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": false,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(0,0,0)",
+            "BackColor": "RGB(255,255,255)",
+            "Expression1": "[cbCreateControl]=True"
+          }
+        ]
+      },
+      "fcControl2": {
+        "Rules": [
+          {
+            "Type": "Expression",
+            "Enabled": false,
+            "FontBold": false,
+            "FontItalic": false,
+            "FontUnderline": false,
+            "ForeColor": "RGB(0,0,0)",
+            "BackColor": "RGB(255,255,255)",
+            "Expression1": "[cbCreateControl]=True"
+          }
+        ]
+      }
+    }
+  }
+}

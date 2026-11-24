@@ -1,0 +1,55 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "L10n_Overview"
+  },
+  "Items": {
+    "QueryType": 16,
+    "Columns": {
+      "DE": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 5565,
+        "AggregateType": -1
+      },
+      "EN": {
+        "ColumnOrder": 2,
+        "ColumnWidth": 5190,
+        "AggregateType": -1
+      },
+      "L10n_Dict.KeyText": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 5985,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 40,
+        "right": 1595,
+        "bottom": 836
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1571,
+        "bottom": 309
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "L10n_Dict",
+          "Alias": "",
+          "Left": 61,
+          "Top": 66,
+          "Right": 205,
+          "Bottom": 210,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}
